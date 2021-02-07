@@ -28,7 +28,7 @@ public class HeapSort {
 
     }
 
-    public static void adjust(int array[] , int index, int length){
+    private static void adjust(int[] array, int index, int length){
 
         int temp = array[index];
 

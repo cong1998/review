@@ -11,7 +11,7 @@ public class ShellSort {
             array[i] =(int) (Math.random()*1000);
         }
         System.out.println("排序前："+ Arrays.toString(array));
-        shellSort2(array);
+        shellSort(array);
         System.out.println("排序后："+Arrays.toString(array));
     }
 

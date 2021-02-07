@@ -9,11 +9,11 @@ public class BinarySearch {
         int search = binarySearch(array, 0, array.length - 1, 88);
         System.out.println(search);
 
-        ArrayList<Integer> list = binarySearch2(array, 0, array.length - 1, 99);
+        ArrayList<Integer> list = binarySearch2(array, 0, array.length - 1, 88);
         System.out.println(list);
     }
 
-    public static int binarySearch(int array[],int left ,int right,int value){
+    public static int binarySearch(int[] array, int left , int right, int value){
 
         if(left > right){
             return -1;
